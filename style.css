@@ -1,0 +1,141 @@
+
+header{
+    background-color: #1e202b;
+}
+header  .navbar-collapse  a{
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 400;
+
+}
+header  .navbar-collapse ul li {
+    margin-left: 10px;
+}
+header  .navbar-collapse ul li:hover  a,#Home_1 {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.data-search1{
+    background-image: url(./banner.png);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    padding: 70px 0;
+}
+input{
+    border-radius: 30px;
+}
+.find-location input[type="button"] {
+    cursor: pointer;
+    top: 5px;
+    right: 17px;
+    bottom: 5px;
+    padding: 0 40px;
+    border: white;
+    color: white;
+    background-color: #009ad8;
+}
+.find-location input[type="text"] {
+    padding: 14px 0px 19px 15px;
+    outline: unset;
+    border: #212529;
+}
+
+.data-1{
+    background-color: black;
+}
+
+#color_15{
+background-color: #262936;
+}
+#bg-coler{
+background-color: #323544;
+border-radius: 10px;
+position: relative;
+top: -150px;
+} 
+.data-var{
+padding: 30px 20px;
+text-align: center;
+}
+.data-var span{
+margin-right: 20px;
+}
+.data-var p{
+    color: #009ad8;
+    margin: 20px 0;
+}
+#bg-coler .heding{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+} 
+
+footer{
+    background: #262936;
+   
+}
+footer .social-links a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: 0.3s ease;
+    font-size: 20px !important;
+    font-size: 1.4285714286em;
+}
+footer .social-links a:hover{
+    background-color: #009ad8;
+    color: white;
+}
+
+#p-a,#c-t{
+    top: 15px;
+    left: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+#c-t{
+    left: 90px;
+}
+.ineer{
+    background: #262936;
+    border-radius: 10px;
+}
+.ineer .map{
+    height: 220px;
+}
+.ineer .text-ineer{
+    padding: 20px;
+}
+
+#content{
+    padding: 70px 0;
+}
+.stylin,textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+    border-radius: 30px;
+}
+textarea{
+    min-height: 150px;
+}
+#sbm{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
